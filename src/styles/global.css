@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  background: radial-gradient(
+    at top left,
+    rgba(146, 43, 225, 1) 0%,
+    rgba(43, 9, 107, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+/* layout & nav */
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-color: white;
+}
+.footer p {
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}
+/* home */
+.home.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+}
+.home.header h2 {
+  font-size: 4em;
+}
+.home.header h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.home.header .btn {
+  display: inline-block;
+  background: #d42990;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+/* Project index */
+.project-index.portofolio {
+  text-align: center;
+}
+.project-index.portofolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.project-index.portofolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+.project-index.portofolio .projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+.project-index.portofolio .projects h3 {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+}
+.project-index.portofolio .projects p {
+  color: #ccc;
+  margin-top: 4px;
+}
+/* Project details */
+.project-details.details h2 {
+  font-size: 3.5em;
+  margin-top: 80px;
+}
+.project-details.details h3 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.project-details .html {
+  margin-top: 40px;
+}
+.project-details .featured {
+  margin-bottom: 40px;
+}
